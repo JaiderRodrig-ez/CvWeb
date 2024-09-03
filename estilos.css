@@ -54,6 +54,7 @@
 #izq{
     padding: 7%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -100,4 +101,50 @@ img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#Perfil{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#linea2{
+    border: 1.5px green solid;
+    background-color: green;
+    height: 10px;
+    width: 70%;
+    margin: 10px
+}
+#texperfil{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#titlePerfil{
+    margin: 10px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#DtoPer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#linea2{
+    border: 1.5px green solid;
+    background-color: green;
+    height: 10px;
+    width: 70%;
+    margin: 10px
+}
+#texDto{
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+#titlePerfil{
+    margin: 10px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

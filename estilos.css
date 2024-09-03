@@ -116,6 +116,7 @@ img{
     margin: 10px
 }
 #texperfil{
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 10px;
@@ -147,4 +148,37 @@ img{
     margin: 10px;
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#titlePerfil2{
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: beige;
+    margin: 10px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#titlePerfil3{
+    position: absolute;
+    left: 30px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#Univer{
+    margin: 10px;
+}
+#estudy{
+    padding-top: 40px;
+}
+#Tecnico{
+    margin: 10px;
+}
+#Bachiller{
+    margin: 10px;
+}
+#Primar{
+    margin: 10px;
+}
+.ult{
+    margin-bottom: 20px;
 }

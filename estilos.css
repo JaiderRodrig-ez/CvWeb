@@ -47,7 +47,7 @@
 }
 #parti{
     height: 0;
-    border: 1px green ;
+    border: 1px green solid;
 }
 .mtad{
     width: 90%;
@@ -145,6 +145,10 @@ img{
     margin: 10px;
 }
 #titlePerfil{
+    padding: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: beige;
     margin: 10px;
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -160,7 +164,7 @@ img{
 }
 #titlePerfil3{
     position: absolute;
-    left: 30px;
+    left: 10%;
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -181,4 +185,19 @@ img{
 }
 .ult{
     margin-bottom: 20px;
+}
+
+@media (min-width:768px){
+    #cont2{
+        padding-top: 20px;
+        padding: 10px;
+        flex-direction: row;
+    }
+    #titlePerfil3{
+        left: 55vw;
+    }
+    #parti{
+        height: 60vh;
+        border: 0.5px green solid;
+    }
 }

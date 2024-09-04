@@ -73,7 +73,7 @@
 }
 #cont3{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -211,6 +211,19 @@ input{
     width: 70%;
     height: 15vh;
 }
+#cont3{
+    margin-top: 20px;
+}
+#Nombres{
+    margin-bottom: 20px;
+}
+#tett{
+    margin-top: 20px;
+}
+#parti{
+    border: 1.5px green solid;
+    width: 70%;
+}
 @media (min-width:768px){
     #cont2{
         padding-top: 20px;
@@ -231,6 +244,9 @@ input{
         font-weight: bold;
         font-size: 50px;
         margin: 10px;
+    }
+    #cont3{
+        flex-direction: row;
     }
     
 }

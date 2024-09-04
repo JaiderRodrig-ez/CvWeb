@@ -169,6 +169,18 @@ img{
     font-size: medium;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+#titlePerfil4{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    margin: 10px;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 #Univer{
     margin: 10px;
 }
@@ -212,6 +224,9 @@ input{
     height: 15vh;
 }
 #cont3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 20px;
 }
 #Nombres{
@@ -234,8 +249,9 @@ input{
         left: 55vw;
     }
     #parti{
-        height: 60vh;
+        height: 50vh;
         border: 0.5px green solid;
+        width: 0%;
     }
     p{
         padding-left: 10%;
@@ -247,6 +263,15 @@ input{
     }
     #cont3{
         flex-direction: row;
+    }
+    #izq2{
+        padding: 2%;
+    }
+    #der2{
+        padding: 2%;
+    }
+    #med2{
+        padding: 2%;
     }
     
 }

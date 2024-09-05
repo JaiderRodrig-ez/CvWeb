@@ -273,6 +273,47 @@ input{
     border-radius: 50%; 
     background-size: cover;
 }
+.barra-vertical{
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly; 
+    align-items: flex-end;
+    padding-right: 10px;
+    z-index: 1000;
+}
+.item{
+    position: fixed;
+    border-radius: 15%;
+    background-color: rgb(187, 214, 233);
+    padding: 20px;
+    right: 0;
+    top: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.item:hover {
+    transform: translateX(-10px); /* Hace que el elemento se desplace hacia la izquierda */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Añade sombra */
+}
+#uno{
+    margin-top: 0;
+}
+#uno1{
+    margin-top: 300px;
+}
+#dos{
+    margin-top: 65px;
+}
+#tres{
+    margin-top: 130px;
+}
+#cuar{
+    margin-top: 195px;
+}
 @keyframes slide2 {
     0% { transform: translateX(0%); }
     20% { transform: translateX(-50%); }

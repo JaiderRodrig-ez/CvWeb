@@ -5,7 +5,7 @@
 }
 #global{
     margin: 5%;
-    background-color: rgb(170, 169, 169);
+    background-color: rgb(206, 223, 235);
 }
 #encabezado{
     margin: 10px;
@@ -15,7 +15,7 @@
     align-items: center;
 }
 #linea{
-    border: 1.5px green solid;
+    border: 1.5px rgb(13, 59, 102) solid;
     width: 70%;
 }
 #cont1{
@@ -48,7 +48,11 @@
 }
 #parti{
     height: 0;
-    border: 1px green solid;
+    border: 1px rgb(13, 59, 102) solid;
+}
+#parti2{
+    height: 0;
+    border: 1px rgb(13, 59, 102) solid;
 }
 .mtad{
     width: 90%;
@@ -107,13 +111,6 @@
     justify-content: center;
     align-items: center;
 }
-#linea2{
-    border: 1.5px green solid;
-    background-color: green;
-    height: 10px;
-    width: 70%;
-    margin: 10px
-}
 #texperfil{
     flex-direction: column;
     justify-content: center;
@@ -132,9 +129,9 @@
     align-items: center;
 }
 #linea2{
-    border: 1.5px green solid;
-    background-color: green;
-    height: 10px;
+    border: 1.5px rgb(13, 59, 102) solid;
+    background-color: rgb(13, 59, 102);
+    height: 4px;
     width: 70%;
     margin: 10px
 }
@@ -234,7 +231,7 @@ input{
     margin-top: 20px;
 }
 #parti{
-    border: 1.5px green solid;
+    border: 1.5px rgb(13, 59, 102) solid;
     width: 70%;
 }
 .ppt{
@@ -295,7 +292,12 @@ input{
     }
     #parti{
         height: 50vh;
-        border: 0.5px green solid;
+        border: 0.5px rgb(13, 59, 102) solid;
+        width: 0%;
+    }
+    #parti2{
+        height: 30vh;
+        border: 0.5px rgb(13, 59, 102) solid;
         width: 0%;
     }
     p{
@@ -318,5 +320,63 @@ input{
     #med2{
         padding: 2%;
     }
-    
+    .ppt2{
+        padding-left: 25px;
+    }
+}
+
+@media (min-width:1024px){
+    #cont2{
+        padding-top: 20px;
+        padding: 10px;
+        flex-direction: row;
+    }
+    #titlePerfil3{
+        left: 55vw;
+    }
+    #parti{
+        height: 50vh;
+        border: 0.5px rgb(13, 59, 102) solid;
+        width: 0%;
+    }
+    #parti2{
+        height: 30vh;
+        border: 0.5px rgb(13, 59, 102) solid;
+        width: 0%;
+    }
+    p{
+        padding-left: 10%;
+    }
+    #Nombre{
+        font-weight: bold;
+        font-size: 50px;
+        margin: 10px;
+    }
+    #cont3{
+        flex-direction: row;
+    }
+    #izq{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #der{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #izq2{
+        padding: 3%;
+    }
+    #der2{
+        padding: 3%;
+    }
+    #med2{
+        padding: 3%;
+    }
+    .ppt2{
+        padding-left: 25px;
+    }
+    #mssdirec{
+        flex-direction: column;
+    }
+
 }
